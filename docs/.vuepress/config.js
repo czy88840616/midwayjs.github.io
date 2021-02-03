@@ -5,12 +5,12 @@ module.exports = {
   locales: {
     '/': {
       lang: 'zh-CN',
-      title: 'Midway',
+      title: 'Midway - 面向未来的云端一体 Node.js 框架',
       description: '面向未来的云端一体框架',
     },
     '/en/': {
       lang: 'en-US',
-      title: 'Midway',
+      title: 'Midway - Future oriented full-stack web framework',
       description: 'Future oriented full-stack web framework',
     },
   },
@@ -18,7 +18,7 @@ module.exports = {
     locales: {
       '/': {
         lang: 'zh-CN',
-        title: 'Midway',
+        title: 'Midway - 面向未来的云端一体 Node.js 框架',
         description: '面向未来的云端一体框架',
         repo: 'midwayjs/midway',
         docsDir: 'docs',
@@ -32,7 +32,7 @@ module.exports = {
       },
       '/en/': {
         lang: 'en-US',
-        title: 'Midway',
+        title: 'Midway - Future oriented full-stack web framework',
         description: 'Future oriented full-stack Web framework',
         repo: 'midwayjs/midway',
         docsDir: 'docs',
