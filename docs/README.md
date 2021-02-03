@@ -12,7 +12,7 @@ pageClass: home-class
       <div class="home-logo"></div>
       <div class="top-right">
         <nav>
-          <a href="https://midwayjs.org/midway/v1" class="home-link link">使用文档（v1)</a>
+          <a href="https://www.yuque.com/midwayjs/midway_v1" class="home-link link">使用文档（v1)</a>
           <a href="https://www.yuque.com/midwayjs/midway_v2" class="home-link link">使用文档（v2)</a>
           <!-- <a href="https://www.yuque.com/midwayjs/midway_v2" class="home-link link">API</a> -->
           <a href="http://demo.midwayjs.org/" class="home-link link">示例库</a>
@@ -43,7 +43,7 @@ pageClass: home-class
       <div class="home-solution-title">不论你在寻求何种解决方案，</div>
       <div class="home-solution-title">Midway 总能提供给你最适合的那一个。</div>
       <div class="home-solution-list" id="home-solution-container"></div>
-      <a class="home-solution-more button" href=""><span class="buttonScale"></span><div>查看所有解决方案</div></a>
+      <a class="home-solution-more button" href="http://demo.midwayjs.org/"><span class="buttonScale"></span><div>查看所有解决方案</div></a>
       <div class="home-ad-middle">
         <div class="ad-middle-card" style="background-image: url('//gw.alicdn.com/tfs/TB15dfUnsVl614jSZKPXXaGjpXa-2184-1096.png');">
           <a class="ad-middle-button button white" href="http://d2forum.alibaba-inc.com/" target="_blank"><span class="buttonScale"></span><div>点击报名</div></a>
@@ -97,8 +97,8 @@ pageClass: home-class
       </div>
       <a class="bottom-logo"></a>
       <div class="home-right">
-        <a class="link" href="http://midwayjs.org/pandora">Pandora</a>
-        <a class="link" href="http://midwayjs.org/injection">Injection</a>
+        <a class="link" href="https://github.com/midwayjs/pandora">Pandora</a>
+        <a class="link" href="https://github.com/midwayjs/injection">Injection</a>
         <a class="link" href="https://github.com/midwayjs/sandbox-docker">Sandbox</a>
         <a class="link" href="https://ice.work/">ICE</a>
       </div>
