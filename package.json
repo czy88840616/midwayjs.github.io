@@ -2,7 +2,8 @@
   "name": "midwayjs.github.io",
   "version": "1.0.0",
   "devDependencies": {
-    "vuepress": "^1.5.4"
+    "vuepress": "^1.5.4",
+    "typedoc": "^0.20.28"
   },
   "scripts": {
     "dev": "vuepress dev docs",
