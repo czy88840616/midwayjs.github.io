@@ -5,7 +5,7 @@ vuepress build docs
 node ./scripts/replace.js
 
 ## 生成typedoc
-git clone git@github.com:midwayjs/midway.git
+git clone https://github.com/midwayjs/midway.git
 cd midway
 npm i
 npm i typedoc@0.19.2 typedoc-neo-theme typedoc-plugin-lerna-packages
