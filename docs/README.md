@@ -41,15 +41,19 @@ pageClass: home-class
       <div>全新的一体化方案</div>
       <div>全新的 Serverless 测试方案</div>
       <div>业界首创的全栈开发方式</div>
-      <div>欢迎在 2021.03.55 下午 14：00 收看直播</div>
-      <div style="display:flex;top: 20px;position: absolute;right: 0;width: 500px;">
-        <div style="margin-right: 80px;text-align:center;">
-            <img style="width: 120px;display:flex;" src="https://img.alicdn.com/imgextra/i2/O1CN01EImRFK1av7imVOPYh_!!6000000003391-2-tps-364-370.png"/>
-            <span style="font-size:12px;">Alibaba f2e 视频号</span>
+      <div>欢迎在 2021.03.05 下午 14：00 收看直播</div>
+      <div style="display:flex;top: 20px;position: absolute;right: 0;width: 500px;justify-content: space-between;">
+        <div style="text-align:center;display: block;">
+          <img style="width: 120px;display: block;" src="https://img.alicdn.com/imgextra/i2/O1CN01EImRFK1av7imVOPYh_!!6000000003391-2-tps-364-370.png"/>
+          <span style="font-size:12px;">Alibaba f2e 视频号</span>
         </div>
         <div style="text-align:center;">
-          <img style="width: 120px;display:flex;" src="https://img.alicdn.com/imgextra/i3/O1CN01UU6JkF1bzX9RhNew0_!!6000000003536-2-tps-364-370.png"/>
-          <span style="font-size:12px;">Blibli 前端圈</span>
+          <img style="width: 120px;display: block;" src="https://img.alicdn.com/imgextra/i3/O1CN01UU6JkF1bzX9RhNew0_!!6000000003536-2-tps-364-370.png"/>
+          <span style="font-size:12px;">bilibili 前端圈</span>
+        </div>
+         <div style="text-align:center;display: block;">
+          <img style="width: 120px;display: block;" src="https://gw.alicdn.com/imgextra/i4/O1CN01QJJIeQ235TuzhaJ0i_!!6000000007204-2-tps-1280-1280.png"/>
+          <span style="font-size:12px;">Node.js 地下铁</span>
         </div>
       </div>
     </div>
@@ -107,7 +111,7 @@ pageClass: home-class
   <div class="home-bottom">
     <div class="content-container">
       <div class="home-left">
-        <div class="home-copyright">© 2020 ~ ∞ Midwayjs@Serverless</div>
+        <div class="home-copyright">© 2021 ~ ∞ Midwayjs@Serverless</div>
         <a class="link" href="https://github.com/midwayjs/midway">Github</a>
         <a class="link" href="https://github.com/midwayjs/midway/issues">Issue</a>
         <a class="link" href="https://www.yuque.com/midwayjs/topics">Help</a>
@@ -135,7 +139,7 @@ let topWallList = [
   { cover: '//gw.alicdn.com/tfs/TB12AhMjcVl614jSZKPXXaGjpXa-1200-669.png' }, // express
   { cover: '//gw.alicdn.com/tfs/TB1NtHPh5pE_u4jSZKbXXbCUVXa-1200-669.png' }, // egg
   { cover: '//gw.alicdn.com/tfs/TB1bonEgsieb18jSZFvXXaI3FXa-1200-669.png' }, // dingtalk
-  { cover: '//gw.alicdn.com/tfs/TB1oq7GfxvbeK8jSZPfXXariXXa-1200-669.png' }, // covid19
+  // { cover: '//gw.alicdn.com/tfs/TB1oq7GfxvbeK8jSZPfXXariXXa-1200-669.png' }, // covid19
   { cover: '//gw.alicdn.com/tfs/TB1Fh51U.Y1gK0jSZFMXXaWcVXa-1200-669.png' }, // antd
   { cover: '//gw.alicdn.com/tfs/TB1Ro.miMgP7K4jSZFqXXamhVXa-1200-669.png' }, // typeorm
   { cover: '//gw.alicdn.com/imgextra/i1/19999999999999/O1CN01FDOJdG2NjasvEbjxX_!!19999999999999-2-tps.png' }, // sequelize
