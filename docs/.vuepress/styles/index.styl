@@ -85,10 +85,16 @@
           color: #fff;
           font-size: 16px;
 
+  .home-banner
+    background: linear-gradient(135deg, #7380b5, #3d5474, #374f4e, #27282c);
+    height: 180px;
+    color: #fff;
+
   .home-top
     position: relative;
     height: 698px;
-    background: #11161a url('//img.alicdn.com/tfs/TB1KoZZVAL0gK0jSZFAXXcA9pXa-6880-1540.jpg') center/cover no-repeat;
+    background: #11161a url('//img.alicdn.com/imgextra/i2/O1CN010KGt8c1nby9zHW3e7_!!6000000005109-0-tps-3384-1304.jpg') 80% 0%/cover no-repeat;
+    background-attachment: fixed;
 
     .home-top-title
       position: absolute;
@@ -102,9 +108,9 @@
         line-height: 75px;
       .home-top-mini-line
         font-size: 16px;
-        width: 520px;
         line-height: 32px;
         font-weight: 500;
+        margin-top: 10px;
     .home-top-button-list
       position: absolute;
       display: flex;
@@ -120,45 +126,37 @@
         &.view
           .buttonScale
             background: #498ef0;
-    .home-top-right
-      position: absolute;
-      right: 0;
-      top: 240px;
-      width: 600px;
-      height: 320px;
-      .home-top-container
-        position: absolute;
-        width: 100%;
-        top: 50%;
-        left: 0;
-        transform: translate(0, -50%);
-        .top-wall-item
-          position: relative;
-          box-sizing: border-box;
-          z-index: 1;
-          display: inline-block;
-          opacity: 0;
-          width: calc(25% - 12px);
-          margin-right: 12px;
-          margin-bottom: 12px;
-          height: 80px;
-          vertical-align: top;
-          transition: opacity 1s ease;
-          &:hover
-            .top-wall-item-inner
-              box-shadow: 0 0 25px #498ef0;
-          .top-wall-item-inner
-            height: 100%;
-            background-position: center;
-            background-size: cover;
-            background-repeat: no-repeat;
-            background-cover: #fff;
-            border-radius: 3px;
-            transition: box-shadow .5s ease;
+
+  .home-top-container
+    padding: 50px 0;
+    .top-wall-item
+      position: relative;
+      box-sizing: border-box;
+      z-index: 1;
+      display: inline-block;
+      opacity: 0;
+      width: 180px;
+      margin-right: 20px;
+      margin-bottom: 18px;
+      height: 100px;
+      vertical-align: top;
+      transition: opacity 1s ease;
+      box-shadow: 1px 1px 5px #ccc;
+      &:hover
+        .top-wall-item-inner
+          box-shadow: 0 0 25px #498ef0;
+      .top-wall-item-inner
+        height: 100%;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-cover: #fff;
+        border-radius: 3px;
+        transition: box-shadow .5s ease;
 
   .home-solutions
     position: relative;
-    height: 660px;
+    height: 1000px;
     padding-top: 88px;
     box-sizing: border-box;
     .home-solution-title
@@ -167,6 +165,7 @@
       color: #000;
     .home-solution-list
       padding: 20px 0;
+      display: none;
       .home-solution
         height: 40px;
         line-height: 40px;

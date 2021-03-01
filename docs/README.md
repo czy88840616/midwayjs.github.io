@@ -12,8 +12,7 @@ pageClass: home-class
       <div class="home-logo"></div>
       <div class="top-right">
         <nav>
-          <a href="https://www.yuque.com/midwayjs/midway_v1" class="home-link link">使用文档（v1)</a>
-          <a href="https://www.yuque.com/midwayjs/midway_v2" class="home-link link">使用文档（v2)</a>
+          <a href="https://www.yuque.com/midwayjs/midway_v2" class="home-link link">使用文档</a>
           <!-- <a href="https://www.yuque.com/midwayjs/midway_v2" class="home-link link">API</a> -->
           <a href="http://demo.midwayjs.org/" class="home-link link">示例库</a>
           <a href="/api-reference/index.html" class="home-link link">API</a>
@@ -28,14 +27,29 @@ pageClass: home-class
       <div class="home-top-title">
         <div class="home-top-line">一个面向未来的</div>
         <div class="home-top-line">云端一体 Node.js 框架</div>
-        <div class="home-top-mini-line">Midway 是一个适用于构建 Serverless 服务，传统应用、微服务，小程序后端的 Node.js 框架。</div>
+        <div class="home-top-mini-line">Midway 是一个适用于构建 Serverless 服务，传统应用、微服务，小程序后端的 Node.js 框架</div>
       </div>
       <div class="home-top-button-list">
-        <a class="home-top-button button view" href="https://www.yuque.com/midwayjs/midway_v2"><span class="buttonScale"></span><div>访问文档（v2）</div></a>
+        <a class="home-top-button button view" href="https://www.yuque.com/midwayjs/midway_v2"><span class="buttonScale"></span><div>访问文档</div></a>
         <a class="home-top-button button white" href="https://github.com/midwayjs/midway"><span class="buttonScale"></span><div><i class="github"></i>源码</div></a>
       </div>
-      <div class="home-top-right">
-        <div class="home-top-container" id="top-wall">
+    </div>
+  </div>
+  <div class="home-banner">
+    <div class="content-container" style="font-size:14px;padding: 20px 0;line-height:24px;">
+      <div style="font-weight:bold;font-size:20px;margin-bottom:20px">Midway Serverless 2.0</div>
+      <div>全新的一体化方案</div>
+      <div>全新的 Serverless 测试方案</div>
+      <div>业界首创的全栈开发方式</div>
+      <div>欢迎在 2021.03.55 下午 14：00 收看直播</div>
+      <div style="display:flex;top: 20px;position: absolute;right: 0;width: 500px;">
+        <div style="margin-right: 80px;text-align:center;">
+            <img style="width: 120px;display:flex;" src="https://img.alicdn.com/imgextra/i2/O1CN01EImRFK1av7imVOPYh_!!6000000003391-2-tps-364-370.png"/>
+            <span style="font-size:12px;">Alibaba f2e 视频号</span>
+        </div>
+        <div style="text-align:center;">
+          <img style="width: 120px;display:flex;" src="https://img.alicdn.com/imgextra/i3/O1CN01UU6JkF1bzX9RhNew0_!!6000000003536-2-tps-364-370.png"/>
+          <span style="font-size:12px;">Blibli 前端圈</span>
         </div>
       </div>
     </div>
@@ -43,8 +57,10 @@ pageClass: home-class
   <div class="home-solutions">
     <div class="content-container">
       <div class="home-solution-title">不论你在寻求何种解决方案，</div>
-      <div class="home-solution-title">Midway 总能提供给你最适合的那一个。</div>
+      <div class="home-solution-title">Midway 总能提供给你最适合的那一个</div>
       <div class="home-solution-list" id="home-solution-container"></div>
+      <div class="home-top-container" id="top-wall">
+      </div>
       <a class="home-solution-more button" href="http://demo.midwayjs.org/"><span class="buttonScale"></span><div>查看所有解决方案</div></a>
       <div class="home-ad-middle">
         <div class="ad-middle-card" style="background-image: url('//gw.alicdn.com/tfs/TB15dfUnsVl614jSZKPXXaGjpXa-2184-1096.png');">
