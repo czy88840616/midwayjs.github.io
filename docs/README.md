@@ -41,7 +41,7 @@ pageClass: home-class
       <div>全新的一体化方案</div>
       <div>全新的 Serverless 测试方案</div>
       <div>业界首创的全栈开发方式</div>
-      <div>欢迎在 2021.03.05 下午 14：00 收看直播</div>
+      <div>欢迎在 2021.03.05 下午 14：00 收看直播（发布会已结束，我们正在整理资料）</div>
       <div style="display:flex;top: 20px;position: absolute;right: 0;width: 500px;justify-content: space-between;">
         <div style="text-align:center;display: block;">
           <img style="width: 120px;display: block;" src="https://img.alicdn.com/imgextra/i2/O1CN01EImRFK1av7imVOPYh_!!6000000003391-2-tps-364-370.png"/>
