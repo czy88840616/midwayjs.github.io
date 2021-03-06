@@ -41,15 +41,11 @@ pageClass: home-class
       <div>全新的一体化方案</div>
       <div>全新的 Serverless 测试方案</div>
       <div>业界首创的全栈开发方式</div>
-      <div>欢迎在 2021.03.05 下午 14：00 收看直播（发布会已结束，我们正在整理资料）</div>
-      <div style="display:flex;top: 20px;position: absolute;right: 0;width: 500px;justify-content: space-between;">
-        <div style="text-align:center;display: block;">
-          <img style="width: 120px;display: block;" src="https://img.alicdn.com/imgextra/i2/O1CN01EImRFK1av7imVOPYh_!!6000000003391-2-tps-364-370.png"/>
-          <span style="font-size:12px;">Alibaba f2e 视频号</span>
-        </div>
+      <div>我们的发布会已结束，可以扫描右侧二维码观看回放</div>
+      <div style="display:flex;top: 20px;position: absolute;right: 0;width: 300px;justify-content: space-between;">
         <div style="text-align:center;">
           <img style="width: 120px;display: block;" src="https://img.alicdn.com/imgextra/i3/O1CN01UU6JkF1bzX9RhNew0_!!6000000003536-2-tps-364-370.png"/>
-          <span style="font-size:12px;">bilibili 前端圈</span>
+          <span style="font-size:12px;">bilibili 前端圈（直播回放）</span>
         </div>
          <div style="text-align:center;display: block;">
           <img style="width: 120px;display: block;" src="https://gw.alicdn.com/imgextra/i4/O1CN01QJJIeQ235TuzhaJ0i_!!6000000007204-2-tps-1280-1280.png"/>
