@@ -1,0 +1,12 @@
+name: 60-minute-cron
+on:
+  schedule:
+    - cron: '*/60 * * * *'
+jobs:
+  cron:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Sync Document
+        run: |
+          curl --request POST \
+          --url 'https://api.vercel.com/v1/integrations/deploy/prj_eV7QKX2vuTz7w0x0AhT8Xejhr6tz/KL8Hp7gYu4'
