@@ -15,6 +15,13 @@ module.exports = {
     },
   },
   themeConfig: {
+    sidebarDepth: 0,
+    smoothScroll: true,
+    repo: 'midwayjs/midway',
+    algolia: {
+      apiKey: '181ce1895a48cc70c1871fa3b7185858',
+      indexName: 'midwayjs'
+    },
     locales: {
       '/': {
         lang: 'zh-CN',
@@ -28,6 +35,21 @@ module.exports = {
         },
         sidebar: require('./nav'),
         nav: [
+          {
+            text: 'API',
+            link: 'api-reference/index.html'
+          },
+          {
+            text: '更新日志',
+            link: 'https://www.yuque.com/midwayjs/report'
+          },
+          { 
+            text: '旧版文档', 
+            items: [
+              { text: 'faas 文档', link: 'https://www.yuque.com/midwayjs/faas' },
+              { text: 'v1 文档', link: 'https://www.yuque.com/midwayjs/midway_v1' },
+            ] 
+          },
         ],
       },
       '/en/': {
@@ -95,5 +117,4 @@ module.exports = {
       },
     },
   },
-  lastUpdated: 'Last Updated',
 };

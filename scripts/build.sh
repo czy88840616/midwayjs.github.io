@@ -1,10 +1,13 @@
 #!/bin/bash
 set -e
 
+## 生成文档
+node ./scripts/generate_doc.js
+
 vuepress build docs
 node ./scripts/replace.js
 
-## 生成typedoc
+## 生成 typedoc
 git clone https://github.com/midwayjs/midway.git
 cd midway
 npm i
