@@ -16,7 +16,7 @@ pageClass: home-class
           <a href="http://demo.midwayjs.org/" class="home-link link">示例库</a>
           <a href="/api-reference/index.html" class="home-link link">API</a>
           <a href="https://subway.midwayjs.org" class="home-link link">Node 地下铁 Club</a>
-          <a href="introduction.html" class="home-link link">备用文档（准备中）</a>
+          <a href="start_app.html" class="home-link link">备用文档（准备中）</a>
         </nav>
         <iframe frameborder="0" scrolling="0" width="114" height="20" title="Star Midway on GitHub" src="https://ghbtns.com/github-btn.html?user=midwayjs&repo=midway&type=star&count=true"></iframe>
       </div>

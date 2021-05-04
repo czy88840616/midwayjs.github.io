@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "devDependencies": {
     "@yuque/sdk": "^1.1.1",
+    "dayjs": "^1.10.4",
     "typedoc": "^0.20.28",
     "vuepress": "^1.5.4"
   },
