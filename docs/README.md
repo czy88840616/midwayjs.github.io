@@ -12,10 +12,11 @@ pageClass: home-class
       <div class="home-logo"></div>
       <div class="top-right">
         <nav>
-          <a href="https://midwayjs.org/midway/v1" class="home-link link">使用文档（v1)</a>
-          <a href="https://www.yuque.com/midwayjs/midway_v2" class="home-link link">使用文档（v2)</a>
-          <!-- <a href="https://www.yuque.com/midwayjs/midway_v2" class="home-link link">API</a> -->
+          <a href="https://www.yuque.com/midwayjs/midway_v2" class="home-link link">使用文档</a>
           <a href="http://demo.midwayjs.org/" class="home-link link">示例库</a>
+          <a href="/api-reference/index.html" class="home-link link">API</a>
+          <a href="https://subway.midwayjs.org" class="home-link link">Node 地下铁 Club</a>
+          <a href="start_app.html" class="home-link link">备用文档（准备中）</a>
         </nav>
         <iframe frameborder="0" scrolling="0" width="114" height="20" title="Star Midway on GitHub" src="https://ghbtns.com/github-btn.html?user=midwayjs&repo=midway&type=star&count=true"></iframe>
       </div>
@@ -26,14 +27,29 @@ pageClass: home-class
       <div class="home-top-title">
         <div class="home-top-line">一个面向未来的</div>
         <div class="home-top-line">云端一体 Node.js 框架</div>
-        <div class="home-top-mini-line">Midway 是一个适用于构建 Serverless 服务，传统应用、微服务，小程序后端的 Node.js 框架。</div>
+        <div class="home-top-mini-line">Midway 是一个适用于构建 Serverless 服务，传统应用、微服务，小程序后端的 Node.js 框架</div>
       </div>
       <div class="home-top-button-list">
-        <a class="home-top-button button view" href="https://www.yuque.com/midwayjs/midway_v2"><span class="buttonScale"></span><div>访问文档（v2）</div></a>
+        <a class="home-top-button button view" href="https://www.yuque.com/midwayjs/midway_v2"><span class="buttonScale"></span><div>访问文档</div></a>
         <a class="home-top-button button white" href="https://github.com/midwayjs/midway"><span class="buttonScale"></span><div><i class="github"></i>源码</div></a>
       </div>
-      <div class="home-top-right">
-        <div class="home-top-container" id="top-wall">
+    </div>
+  </div>
+  <div class="home-banner">
+    <div class="content-container" style="font-size:14px;padding: 20px 0;line-height:24px;">
+      <div style="font-weight:bold;font-size:20px;margin-bottom:20px">Midway Serverless 2.0</div>
+      <div>全新的一体化方案</div>
+      <div>全新的 Serverless 测试方案</div>
+      <div>业界首创的全栈开发方式</div>
+      <div>我们的发布会已结束，可以扫描右侧二维码观看回放</div>
+      <div style="display:flex;top: 20px;position: absolute;right: 0;width: 300px;justify-content: space-between;">
+        <div style="text-align:center;">
+          <img style="width: 120px;display: block;" src="https://img.alicdn.com/imgextra/i3/O1CN01UU6JkF1bzX9RhNew0_!!6000000003536-2-tps-364-370.png"/>
+          <span style="font-size:12px;">bilibili 前端圈（直播回放）</span>
+        </div>
+         <div style="text-align:center;display: block;">
+          <img style="width: 120px;display: block;" src="https://gw.alicdn.com/imgextra/i4/O1CN01QJJIeQ235TuzhaJ0i_!!6000000007204-2-tps-1280-1280.png"/>
+          <span style="font-size:12px;">Node.js 地下铁</span>
         </div>
       </div>
     </div>
@@ -41,9 +57,11 @@ pageClass: home-class
   <div class="home-solutions">
     <div class="content-container">
       <div class="home-solution-title">不论你在寻求何种解决方案，</div>
-      <div class="home-solution-title">Midway 总能提供给你最适合的那一个。</div>
+      <div class="home-solution-title">Midway 总能提供给你最适合的那一个</div>
       <div class="home-solution-list" id="home-solution-container"></div>
-      <a class="home-solution-more button" href=""><span class="buttonScale"></span><div>查看所有解决方案</div></a>
+      <div class="home-top-container" id="top-wall">
+      </div>
+      <a class="home-solution-more button" href="http://demo.midwayjs.org/"><span class="buttonScale"></span><div>查看所有解决方案</div></a>
       <div class="home-ad-middle">
         <div class="ad-middle-card" style="background-image: url('//gw.alicdn.com/tfs/TB15dfUnsVl614jSZKPXXaGjpXa-2184-1096.png');">
           <a class="ad-middle-button button white" href="http://d2forum.alibaba-inc.com/" target="_blank"><span class="buttonScale"></span><div>点击报名</div></a>
@@ -89,7 +107,7 @@ pageClass: home-class
   <div class="home-bottom">
     <div class="content-container">
       <div class="home-left">
-        <div class="home-copyright">© 2020 ~ ∞ Midwayjs@Serverless</div>
+        <div class="home-copyright">© 2021 ~ ∞ Midwayjs@Serverless</div>
         <a class="link" href="https://github.com/midwayjs/midway">Github</a>
         <a class="link" href="https://github.com/midwayjs/midway/issues">Issue</a>
         <a class="link" href="https://www.yuque.com/midwayjs/topics">Help</a>
@@ -97,13 +115,14 @@ pageClass: home-class
       </div>
       <a class="bottom-logo"></a>
       <div class="home-right">
-        <a class="link" href="http://midwayjs.org/pandora">Pandora</a>
-        <a class="link" href="http://midwayjs.org/injection">Injection</a>
+        <a class="link" href="https://github.com/midwayjs/pandora">Pandora</a>
+        <a class="link" href="https://github.com/midwayjs/injection">Injection</a>
         <a class="link" href="https://github.com/midwayjs/sandbox-docker">Sandbox</a>
         <a class="link" href="https://ice.work/">ICE</a>
       </div>
     </div>
   </div>
+  <script type="text/javascript">document.write(unescape("%3Cspan id='cnzz_stat_icon_1279723477'%3E%3C/span%3E%3Cscript src='https://v1.cnzz.com/z_stat.php%3Fid%3D1279723477' type='text/javascript'%3E%3C/script%3E"));</script>
 </div>
 <script>
 let topWallList = [
@@ -117,7 +136,7 @@ let topWallList = [
   { cover: '//gw.alicdn.com/tfs/TB12AhMjcVl614jSZKPXXaGjpXa-1200-669.png' }, // express
   { cover: '//gw.alicdn.com/tfs/TB1NtHPh5pE_u4jSZKbXXbCUVXa-1200-669.png' }, // egg
   { cover: '//gw.alicdn.com/tfs/TB1bonEgsieb18jSZFvXXaI3FXa-1200-669.png' }, // dingtalk
-  { cover: '//gw.alicdn.com/tfs/TB1oq7GfxvbeK8jSZPfXXariXXa-1200-669.png' }, // covid19
+  // { cover: '//gw.alicdn.com/tfs/TB1oq7GfxvbeK8jSZPfXXariXXa-1200-669.png' }, // covid19
   { cover: '//gw.alicdn.com/tfs/TB1Fh51U.Y1gK0jSZFMXXaWcVXa-1200-669.png' }, // antd
   { cover: '//gw.alicdn.com/tfs/TB1Ro.miMgP7K4jSZFqXXamhVXa-1200-669.png' }, // typeorm
   { cover: '//gw.alicdn.com/imgextra/i1/19999999999999/O1CN01FDOJdG2NjasvEbjxX_!!19999999999999-2-tps.png' }, // sequelize

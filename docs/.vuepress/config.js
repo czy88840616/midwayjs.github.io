@@ -5,20 +5,27 @@ module.exports = {
   locales: {
     '/': {
       lang: 'zh-CN',
-      title: 'Midway',
+      title: 'Midway - 面向未来的云端一体 Node.js 框架',
       description: '面向未来的云端一体框架',
     },
     '/en/': {
       lang: 'en-US',
-      title: 'Midway',
+      title: 'Midway - Future oriented full-stack web framework',
       description: 'Future oriented full-stack web framework',
     },
   },
   themeConfig: {
+    sidebarDepth: 0,
+    smoothScroll: true,
+    repo: 'midwayjs/midway',
+    algolia: {
+      apiKey: '181ce1895a48cc70c1871fa3b7185858',
+      indexName: 'midwayjs'
+    },
     locales: {
       '/': {
         lang: 'zh-CN',
-        title: 'Midway',
+        title: 'Midway - 面向未来的云端一体 Node.js 框架',
         description: '面向未来的云端一体框架',
         repo: 'midwayjs/midway',
         docsDir: 'docs',
@@ -28,11 +35,26 @@ module.exports = {
         },
         sidebar: require('./nav'),
         nav: [
+          {
+            text: 'API',
+            link: 'api-reference/index.html'
+          },
+          {
+            text: '更新日志',
+            link: 'https://www.yuque.com/midwayjs/report'
+          },
+          { 
+            text: '旧版文档', 
+            items: [
+              { text: 'faas 文档', link: 'https://www.yuque.com/midwayjs/faas' },
+              { text: 'v1 文档', link: 'https://www.yuque.com/midwayjs/midway_v1' },
+            ] 
+          },
         ],
       },
       '/en/': {
         lang: 'en-US',
-        title: 'Midway',
+        title: 'Midway - Future oriented full-stack web framework',
         description: 'Future oriented full-stack Web framework',
         repo: 'midwayjs/midway',
         docsDir: 'docs',
@@ -95,5 +117,4 @@ module.exports = {
       },
     },
   },
-  lastUpdated: 'Last Updated',
 };
