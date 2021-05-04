@@ -37,7 +37,7 @@ module.exports = {
         nav: [
           {
             text: 'API',
-            link: 'api-reference/index.html'
+            link: 'https://midwayjs.org/api-reference/index.html'
           },
           {
             text: '更新日志',
