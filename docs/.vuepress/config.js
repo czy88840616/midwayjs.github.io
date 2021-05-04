@@ -15,6 +15,10 @@ module.exports = {
     },
   },
   themeConfig: {
+    algolia: {
+      apiKey: '181ce1895a48cc70c1871fa3b7185858',
+      indexName: 'midwayjs'
+    },
     locales: {
       '/': {
         lang: 'zh-CN',
