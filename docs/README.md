@@ -12,11 +12,10 @@ pageClass: home-class
       <div class="home-logo"></div>
       <div class="top-right">
         <nav>
-          <a href="https://www.yuque.com/midwayjs/midway_v2" class="home-link link">使用文档</a>
+          <a href="start_app.html" class="home-link link">使用文档</a>
           <a href="http://demo.midwayjs.org/" class="home-link link">示例库</a>
           <a href="/api-reference/index.html" class="home-link link">API</a>
           <a href="https://subway.midwayjs.org" class="home-link link">Node 地下铁 Club</a>
-          <a href="start_app.html" class="home-link link">备用文档（准备中）</a>
         </nav>
         <iframe frameborder="0" scrolling="0" width="114" height="20" title="Star Midway on GitHub" src="https://ghbtns.com/github-btn.html?user=midwayjs&repo=midway&type=star&count=true"></iframe>
       </div>
@@ -30,7 +29,12 @@ pageClass: home-class
         <div class="home-top-mini-line">Midway 是一个适用于构建 Serverless 服务，传统应用、微服务，小程序后端的 Node.js 框架</div>
       </div>
       <div class="home-top-button-list">
-        <a class="home-top-button button view" href="https://www.yuque.com/midwayjs/midway_v2"><span class="buttonScale"></span><div>访问文档</div></a>
+        <div>
+          <a class="home-top-button button view" href="start_app.html"><span class="buttonScale"></span><div>访问文档</div></a>
+          <br/>
+          <br/>
+          <!-- <a href="#" style="color: #fff;font-size: 14px;margin-left: 70px;">备用文档</a> -->
+        </div>
         <a class="home-top-button button white" href="https://github.com/midwayjs/midway"><span class="buttonScale"></span><div><i class="github"></i>源码</div></a>
       </div>
     </div>
